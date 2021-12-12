@@ -1,0 +1,45 @@
+{
+    "HomePage": {
+        "mainPage" : "//main",
+        "AlertBox_PopUp": "//div[@class='optanon-alert-box-bg']",
+        "AcceptAllCookies_Btn": "//button[@class='optanon-allow-all accept-cookies-button']",
+        "CookieSettings_Btn": "//button[@class='optanon-toggle-display cookie-settings-button']",
+        "volovHeader_Img": "//div[@id='sitenav:topbar']//img[@alt='Volvo']",
+        "ourCars_lnk": "//em[text()='Our Cars']",
+        "carsMenu_section" : "//div[@data-autoid='nav:carMenuDesktop']",
+        "carMenu_Close_icon" : "//button[@data-autoid='nav:carMenuCloseIcon']",
+        "Menu_lnk": "//em[text()='Menu']",
+        "footer" : "//footer",
+        "learn_more_about_safety_lnk": "//a[text()='Learn more about car safety']",
+        "learn_more_about_innovation" : "//a[text()='Learn more']",
+        "cars_carousel" : "//div[@data-component='ProductListCarousel']",
+        "learn_about_car_from_first_product_lnk" : "//div[@data-autoid='springCarouselPane:carouselItem'][1]//a[contains(.,'Learn')]",
+        "shop_car_from_first_product_lnk": "//div[@data-autoid='springCarouselPane:carouselItem'][1]//a[contains(.,'Shop')]"
+    },
+    "Menu": {
+        "buy_lnk" : "//em[text()='Buy']",
+        "own_lnk" : "//em[text()='Own']",
+        "about_volvo_lnk" : "//em[text()='About Volvo']",
+        "explore_lnk" : "//em[text()='Explore']",
+        "more_lnk" : "//em[text()='More']",
+        "international_lnk" : "//p[text()='International']",
+        "Car_Configurator_lnk" : "//em[text()='Car Configurator']/parent::a",
+        "fleet_sales_lnk" : "//em[text()='Fleet sales']/parent::a",
+        "used_cars_lnk" : "//em[text()='Used cars']/parent::a",
+        "diplomatic_sales_lnk" : "//em[text()='Diplomatic sales']/parent::a",
+        "child_seats_lnk" : "//em[text()='Child seats']/parent::a",
+        "go_back_lnk" : "//button[@aria-label='Go back in Site Navigation']"
+    },
+    "CarSafety" : {
+        "Learn_More_About_Driver_Assistance_Sys_lnk": "//div/h2[text()='Driver assistance systems']/following-sibling::div//a[text()='Learn more']",
+        "Learn_More_About_Child_Safety_lnk": "//div/h2[text()='Child safety']/following-sibling::div//a[text()='Learn more'],",
+        "Learn_More_About_Promotion_lnk": "//div[@id='PromotionBackgroundImage-1']//a[text()='LEARN MORE']",
+        "Learn_More_About_Sharing_Research_lnk": "//h2[text()='Sharing our research to make cars safer for everyone']/following-sibling::div//a[text()='Learn more']",
+        "Learn_More_About_Innovation": "//h2[text()='Decades of innovation']/following-sibling::div//a[text()='learn more']"
+    },
+    "innovations" : {
+        "title": "//h2[text()='A heritage of safety innovations']",
+        "mainPage" : "//main"
+    }
+
+}
