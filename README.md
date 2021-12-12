@@ -42,7 +42,7 @@ allure open allure-report
 ```
 ## Step Definitions
 
-below are the generic step definitions created in this framework,
+Below are the generic step definitions created in this framework,
 
 - I open the \"(.*)\" url
 - close application
@@ -63,7 +63,7 @@ below are the generic step definitions created in this framework,
 
 UI Objects needed for test automation are stored in a json file under OR folder,
 
-below is the structure followed to add the elements,
+Below is the structure followed to add the elements,
 
 {
 
