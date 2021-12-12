@@ -32,7 +32,7 @@
     },
     "CarSafety" : {
         "Learn_More_About_Driver_Assistance_Sys_lnk": "//div/h2[text()='Driver assistance systems']/following-sibling::div//a[text()='Learn more']",
-        "Learn_More_About_Child_Safety_lnk": "//div/h2[text()='Child safety']/following-sibling::div//a[text()='Learn more'],",
+        "Learn_More_About_Child_Safety_lnk": "//div/h2[text()='Child safety']/following-sibling::div//a[text()='Learn more']",
         "Learn_More_About_Promotion_lnk": "//div[@id='PromotionBackgroundImage-1']//a[text()='LEARN MORE']",
         "Learn_More_About_Sharing_Research_lnk": "//h2[text()='Sharing our research to make cars safer for everyone']/following-sibling::div//a[text()='Learn more']",
         "Learn_More_About_Innovation": "//h2[text()='Decades of innovation']/following-sibling::div//a[text()='learn more']"

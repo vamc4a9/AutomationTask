@@ -6,8 +6,6 @@ This project is created on WebDriverIo and Cucumber framework for testing, it us
 There is also a step definition cretaed in case if user wants to capture screenshots when needed.
 
 
-
-
 ## Services Used:
 
 - wdio-image-comparison-service --> for visual regression
@@ -26,12 +24,12 @@ Install WebDriverIo_Project with npm
     
 ## Running Tests
 
-To run tests, run the following command
+To run the test availabel in "WebDriverIo_Project/test_feature" folder, run the following command
 
 ```bash
+  cd WebDriverIo_Project
   npm run wdio
 ```
-
 
 ## Viewing the reports
 
@@ -40,6 +38,7 @@ After the test execution, run the below command to view the html report generate
 ```
 allure open allure-report
 ```
+
 ## Step Definitions
 
 Below are the generic step definitions created in this framework,

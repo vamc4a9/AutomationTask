@@ -1,6 +1,6 @@
 Feature: Verifying the Volvo's new campaign page
 
-Scenario: As a developer, i want the innovation page to contain certain data
+Scenario: Verify that innovation page to contain certain data and validate it against baseline image for visual descripancies
 
     Given I open the "intl/v/car-safety/a-million-more" url
     When I set the "HomePage" as current page

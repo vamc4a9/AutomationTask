@@ -1,6 +1,6 @@
 Feature: Verifying the Volvo's new campaign page
 
-Scenario: As a developer, i want cookie settings page to display when user opens browser
+Scenario: Verify that Cookie settings pop up is displayed when the browser the is opened
 
     Given I open the "intl/v/car-safety/a-million-more" url
     When I set the "HomePage" as current page
@@ -11,7 +11,7 @@ Scenario: As a developer, i want cookie settings page to display when user opens
       |CookieSettings_Btn|
     Then I click on "AcceptAllCookies_Btn" control
 
-Scenario: As a developer, i want the home page of new campain page to contain certain text and controls
+Scenario: Verify home page to contain certain text, controls and also compare it with baseline image for any major changes
 
     Given I set the "HomePage" as current page
     When I check that "mainPage" control is displayed
@@ -41,9 +41,10 @@ Scenario: As a developer, i want the home page of new campain page to contain ce
       |Decades of innovation|
 
   When I check that current page doesnt deviate much from baseline image visually, allowed difference is 15
-  Then verify below controls are displayed
-      |learn_more_about_safety_lnk|
-      |learn_more_about_innovation|
+  Then verify below controls contain given href
+      |learn_more_about_safety_lnk |intl/v/car-safety                 |
+      |learn_more_about_innovation |intl/v/car-safety/safety-heritage |
+  And verify below controls are displayed
       |cars_carousel|
       |learn_about_car_from_first_product_lnk|
       |shop_car_from_first_product_lnk|
@@ -52,7 +53,7 @@ Scenario: As a developer, i want the home page of new campain page to contain ce
   Then I check that "carsMenu_section" control is displayed
   And I click on "carMenu_Close_icon" control
 
-Scenario: As a developer, i want the menu to be interactable and contain the specified links
+Scenario: Verify menu links and their target url's to make sure they will navigate to right screens
 
     Given I set the "HomePage" as current page
     When I click on "Menu_lnk" control
@@ -63,7 +64,7 @@ Scenario: As a developer, i want the menu to be interactable and contain the spe
       |explore_lnk|
       |more_lnk|
       |international_lnk|
-
+  
     When I click on "buy_lnk" control
     Then verify below controls contain given href
       |Car_Configurator_lnk |intl/build                                 |
@@ -71,6 +72,7 @@ Scenario: As a developer, i want the menu to be interactable and contain the spe
       |used_cars_lnk        |intl/buy/purchase/used-cars                |
       |diplomatic_sales_lnk |intl/v/where-to-buy-diplomat-cars          |
       |child_seats_lnk      |intl/own/owner-info/accessories/child-seats|
+ 
     And Capture screenshot
     And I click on "go_back_lnk" control
     Then close application
