@@ -10,9 +10,9 @@ There is also a step definition cretaed in case if user wants to capture screens
 
 ## Services Used:
 
-wdio-image-comparison-service --> for visual regression
+- wdio-image-comparison-service --> for visual regression
 
-docker --> for containerazation
+- docker --> for containerazation
 
 
 ## Installation
